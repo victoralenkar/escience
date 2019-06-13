@@ -144,3 +144,34 @@ tipos diferentes de proveniência;
 São as ferramentas através das quais os cientistas materializam seus experimentos.
 
 ![Provenance Types Perspectives](prov_types_perspectives.png)
+
+### Gerenciamento de Proveniência
+
+Sistemas de gerenciamento de proveniência consistem de 3 componentes:
+
+- Mecanismo de captura
+  - Baseado em Sistema Operacional (SO);
+  - Baseado em Workflow; e
+  - Baseado em Processo;
+- Modelo de representação; e
+- Infraestrutura (armazenamento, acesso e consulta).
+
+### Mecanismo de captura - Baseado em SO
+
+- [+] Não é necessário fazer modificações no script do experimento;
+- [-] Possui grão fino (rico em detalhes) de informações; e
+- [-] Apenas proveniência retrospectiva é capturada.
+
+### Mecanismo de captura - Baseado em Workflow
+
+- [+] Captura da proveniência é implícita/direta;
+- [+] Proveniência retrospectiva e prospectiva são capturadas;
+- [+] Proveniência retrospectiva e prospectiva são integradas;
+- [-] Precisa rodar em um sistema de workflow;
+
+### Mecanismo de captura - Baseado em Processo
+
+- [-] A captura deve ser especificada em suas atividades (necessita de instrumentação);
+- [-] Apenas proveniência retrospectiva é capturada, exceto se houver captura da instrumentação;
+- [+] Funciona em sistemas de workflow;
+
