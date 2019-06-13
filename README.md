@@ -191,3 +191,12 @@ OPM (Open Provenance Model) => PROV (Modelo criado pela W3C)
 ### Relações de Causalidade de PROV
 
 ![Prov Relationships](relations.png)
+
+### Workflow Prov vs Data Prov
+
+- Workflow Prov: O que foi visto até aqui;
+- Data Prov: Contém proveniência capaz de responder "Por quê?", "Como?" e "Onde?" de cada item de dado (Ex: tuplas) da proveniência;
+  - Why Provenance;
+  - How Provenance;
+  - Where Provenance;
+
