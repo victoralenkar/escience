@@ -70,7 +70,7 @@ Testes geram dados...
 relacionados às hipóteses ou previsões;
 - Cálculos estatísticos, tabelas, visualizações e modelos podem apoiar tais análises;
 
-![Reasoning Data](https://github.com/victoralenkar/escience/blob/master/reason_data.png)
+![Reasoning Data](reason_data.png)
 
 ### Construindo um muro forte do conhecimento...
 
@@ -118,7 +118,7 @@ por equações ou software.
 
 _(Davidson and Freire, SIGMOD 2008)_
 
-![Provenance is Key](https://github.com/victoralenkar/escience/blob/master/provenance_is_key.png)
+![Provenance is Key](provenance_is_key.png)
 
 ### Usos de Proveniência
 
@@ -143,4 +143,4 @@ tipos diferentes de proveniência;
 
 São as ferramentas através das quais os cientistas materializam seus experimentos.
 
-![Provenance Types Perspectives](https://github.com/victoralenkar/escience/blob/master/prov_types_perspectives.png)
+![Provenance Types Perspectives](prov_types_perspectives.png)
