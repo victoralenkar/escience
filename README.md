@@ -70,7 +70,7 @@ Testes geram dados...
 relacionados às hipóteses ou previsões;
 - Cálculos estatísticos, tabelas, visualizações e modelos podem apoiar tais análises;
 
-![teste](https://github.com/victoralenkar/escience/blob/master/reason_data.png)
+![Reasoning Data](https://github.com/victoralenkar/escience/blob/master/reason_data.png)
 
 ### Construindo um muro forte do conhecimento...
 
@@ -117,3 +117,21 @@ por equações ou software.
 > These are all important requirements of the **scientific process**. 
 
 _(Davidson and Freire, SIGMOD 2008)_
+
+![Provenance is Key](https://github.com/victoralenkar/escience/blob/master/provenance_is_key.png)
+
+### Usos de Proveniência
+
+- Interpretação de resultados;
+- Auditoria;
+- Reproducibilidade;
+- _Debugging_;
+- _Caching_;
+
+### Evolução
+
+- Cientistas sempre usaram proveniência em algum nível, porém de uma forma pouco escalável ou perceptível.
+- Nos últimos anos aumentaram o número de ferramentas para auxiliar e automatizar experimentos, capturando
+tipos diferentes de proveniência;
+
+### Tipos de Proveniência
