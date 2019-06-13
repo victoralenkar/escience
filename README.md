@@ -233,3 +233,11 @@ _Podem ser interativos!_
 ### Executando experimentos
 
 Scripts e Workflows auxiliam na automatização dos experimentos. Cada execução do experimento é um trial (ensaio).
+
+### White Box vs Black Box
+
+- Caixa Branca: Atividades/funções em que se pode ver o que acontece entre os dados de entrada e saída;
+  - Ex.: funções definidas em scripts;
+- Caixa Preta: Atividades/funções em que **NÃO** se pode ver o que acontece entre os dados de entrada e saída. 
+São mais sensíveis a proveniências implícitas;
+  - Ex.: workflows,funções de bibliotecas importadas em scripts.;
