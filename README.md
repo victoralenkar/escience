@@ -109,3 +109,11 @@ por equações ou software.
 ## Aula 3: Proveniência
 
 ### Definição
+
+> The provenance (also referred to as the audit trail, lineage, and pedigree) of a data 
+> product contains **information about the process and data** used to derive the data product. 
+> It provides important documentation that is key to **preserving** the data, to **determining the data's quality and authorship**, 
+> and to **reproduce** as well as **validate** the results. 
+> These are all important requirements of the **scientific process**. 
+
+_(Davidson and Freire, SIGMOD 2008)_
