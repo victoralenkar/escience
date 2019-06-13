@@ -152,7 +152,7 @@ Sistemas de gerenciamento de proveniência consistem de 3 componentes:
 - Mecanismo de captura
   - Baseado em Sistema Operacional (SO);
   - Baseado em Workflow; e
-  - Baseado em Processo;
+  - Baseado em Processo.
 - Modelo de representação; e
 - Infraestrutura (armazenamento, acesso e consulta).
 
@@ -166,12 +166,26 @@ Sistemas de gerenciamento de proveniência consistem de 3 componentes:
 
 - [+] Captura da proveniência é implícita/direta;
 - [+] Proveniência retrospectiva e prospectiva são capturadas;
-- [+] Proveniência retrospectiva e prospectiva são integradas;
-- [-] Precisa rodar em um sistema de workflow;
+- [+] Proveniência retrospectiva e prospectiva são integradas; e
+- [-] Precisa rodar em um sistema de workflow.
 
 ### Mecanismo de captura - Baseado em Processo
 
 - [-] A captura deve ser especificada em suas atividades (necessita de instrumentação);
-- [-] Apenas proveniência retrospectiva é capturada, exceto se houver captura da instrumentação;
-- [+] Funciona em sistemas de workflow;
+- [-] Apenas proveniência retrospectiva é capturada, _exceto se houver captura da instrumentação_; e
+- [+] Funciona em sistemas de workflow.
 
+### Granularidade da proveniência
+
+- Grossa: Menos informações, menos espaço;
+- Fina: Mais informações/detalhes, mais espaço.
+
+### Modelos de Representação
+
+Surgiram através dos desafios de proveniências (4 ao todo), que evoluíram:
+
+OPM (Open Provenance Model) => PROV (Modelo criado pela W3C)
+
+### Relações de Causalidade de PROV
+
+![Relações de Prov](relations.png)
