@@ -1,4 +1,4 @@
-# E-Science
+﻿# E-Science
 
 ## Resumo
 
@@ -70,7 +70,7 @@ Testes geram dados...
 relacionados às hipóteses ou previsões;
 - Cálculos estatísticos, tabelas, visualizações e modelos podem apoiar tais análises;
 
-[teste](https://github.com/victoralenkar/escience/blob/master/reason_data.png)
+![teste](https://github.com/victoralenkar/escience/blob/master/reason_data.png)
 
 ### Construindo um muro forte do conhecimento...
 
