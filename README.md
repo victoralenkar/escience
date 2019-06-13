@@ -240,4 +240,33 @@ Scripts e Workflows auxiliam na automatização dos experimentos. Cada execuçã
   - Ex.: funções definidas em scripts;
 - Caixa Preta: Atividades/funções em que **NÃO** se pode ver o que acontece entre os dados de entrada e saída. 
 São mais sensíveis a proveniências implícitas;
-  - Ex.: workflows,funções de bibliotecas importadas em scripts.;
+  - Ex.: workflows,funções de bibliotecas importadas em scripts.
+  
+## Aula 6: Reprodutibilidade
+
+### Definição
+
+> Um experimento **R** composto por **S** passos
+> executados em um momento **T** e em um ambiente **E** a partir de dados **D** é dito reprodutível 
+> *se e somente se* existe uma reprodução **R'** que pode ser executada por uma sequência de passos **S'** 
+> (S'≠S ou S'=S) em um momento **T'** > **T**, em um ambiente **E'** (E'≠E ou E'=E) e a partir de dados 
+> **D'** (D'≠D ou D'=D) com resultados consistentes, onde R' ~ R.
+
+```
+Reprodução exata: T'>T, S'=S, D'=D, E'=E => R'=R (Repetibilidade)
+```
+
+### Reproduzir vs Replicar
+
+- Reproduzir: Mesmo código, mesmos dados (mesmo experimento);
+- Replicar: Código diferente, dados diferentes (investigação independente);
+
+### R*
+
+![Prov Relationships](r.png)
+
+### Reexecutar
+
+- Deve ser capaz de reexecutar a qualquer tempo;
+- Resultado não importa; e
+- Desafios: montar um ambiente (original) que permita a execução e o código não ficar obsoleto.
