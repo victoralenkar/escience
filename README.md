@@ -265,8 +265,26 @@ Reprodução exata: T'>T, S'=S, D'=D, E'=E => R'=R (Repetibilidade)
 
 ![Prov Relationships](r.png)
 
-### Reexecutar
+### Reexecutar, R¹
 
-- Deve ser capaz de reexecutar a qualquer tempo;
+- Deve ser capaz de reexecutar a qualquer tempo (futuro);
+- E' ~ E, S' = S e D' = D;
 - Resultado não importa; e
 - Desafios: montar um ambiente (original) que permita a execução e o código não ficar obsoleto.
+
+### Repetível, R²
+
+- Mesmos resultados para mesmas repetições, comportamento determinístico;
+- E' ~ E, S' = S, D' = D e R' = R;
+
+### Reprodutível, R³
+
+- Resultados compatíveis;
+- E' = E, S' = S, D' = D e R' ~ R;
+
+### Reprodutibilidade, R³
+
+- Implica **reexecução**, **repetibilidade** e **disponibilidade**, além impor condições adicionais:
+  - Dependencies and platforms must be described as precisely and as specifically as possible;
+  - Parameters values, the version of the code, and inputs should accompany the result files; e
+  - The data and scripts behind the graphs must be published.
