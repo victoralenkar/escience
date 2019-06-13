@@ -288,3 +288,11 @@ Reprodução exata: T'>T, S'=S, D'=D, E'=E => R'=R (Repetibilidade)
   - Dependencies and platforms must be described as precisely and as specifically as possible;
   - Parameters values, the version of the code, and inputs should accompany the result files; e
   - The data and scripts behind the graphs must be published.
+  
+### Resumo
+
+![Summary](summary1.png)
+
+### Requisitos mínimos
+
+![Minimum Standard](summary2.png)
