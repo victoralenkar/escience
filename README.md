@@ -135,3 +135,12 @@ _(Davidson and Freire, SIGMOD 2008)_
 tipos diferentes de proveniência;
 
 ### Tipos de Proveniência
+
+- Prospectiva: Diz respeito à especificação da tarefa/processo;
+- Retrospectiva: Diz respeito à execução efetiva da tarefa, seus passos e interações com o ambiente (log detalhado da execução);
+
+### Scripts vs Workflows
+
+São as ferramentas através das quais os cientistas materializam seus experimentos.
+
+![Provenance Types Perspectives](https://github.com/victoralenkar/escience/blob/master/prov_types_perspectives.png)
