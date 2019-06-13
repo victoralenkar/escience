@@ -118,6 +118,8 @@ por equações ou software.
 
 _(Davidson and Freire, SIGMOD 2008)_
 
+### Ciclo de vida de experimentos
+
 ![Provenance is Key](provenance_is_key.png)
 
 ### Usos de Proveniência
@@ -200,3 +202,34 @@ OPM (Open Provenance Model) => PROV (Modelo criado pela W3C)
   - How Provenance;
   - Where Provenance;
 
+## Aula 4: Workflows e Scripts
+
+### Composição: concebendo experimentos
+
+Cientista planeja o experimento em uma representação (abstrata) que depois será materializada 
+como um workflow ou script (concreta);
+
+### Workflow
+
+Cadeia de atividades representadas como **fluxos de dados**:
+
+Entradas de dados > Atividade > Saídas de Dados > Atividade > ...
+
+_Dados que não possuem dependência podem começar a fluir paralelamente!_
+
+### Script
+
+Conjunto de programas integrados para uma determinada atividade baseando-se em **fluxos de controle**...
+
+- Everything is Object
+- Multiparadigm
+- Typeless (dynamically typed)
+- Interpreted
+- Automatic memory management
+- Extensive component library
+
+_Podem ser interativos!_
+
+### Executando experimentos
+
+Scripts e Workflows auxiliam na automatização dos experimentos. Cada execução do experimento é um trial (ensaio).
