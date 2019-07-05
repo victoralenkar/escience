@@ -3,9 +3,7 @@
 ### Estudo Orientado, 2019.1, IC/UFF
 
 Orientador: Leonardo Gresta Paulino Murta
-
 Coorientador: José Ricardo da Silva Júnior (IFRJ)
-
 Aluno: Victor Bezerra Alencar
 
 ---
